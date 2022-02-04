@@ -115,7 +115,7 @@ class AdminWindow():
         conn.commit()
 
         if code == '' or name == '' or weight == '' or stock == '' or cost == '' or sell == '':
-            self.notify.add_widget(Label(text='[color=#ff0000][b]Product Code, Product Name,  Weight, Stocks, Costs Price and Selling Price fields are Required[/b][/color]',markup=True,font_name='0WAG.TTF',font_size=24))
+            self.notify.add_widget(Label(text='[color=#ff0000][b]Product Code, Product Name,  Weight, Stocks, Costs Price and Selling Price fields are Required[/b][/color]',markup=True,font_size=24))
             self.notify.open()
             Clock.schedule_once(self.killswitch,5)
         

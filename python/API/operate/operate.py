@@ -11,7 +11,7 @@ import re
 import sqlite3
 import os
 import random
-Builder.load_file('operate/operate.kv')
+
 
 conn = sqlite3.connect("db/posdb.db")
 cn = conn.cursor()
