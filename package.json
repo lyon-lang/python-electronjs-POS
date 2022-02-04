@@ -1,0 +1,17 @@
+{
+  "name": "britannia-pos",
+  "version": "1.0.0",
+  "description": "point of sale App",
+  "main": "main/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Kojo Yankson",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^17.0.0"
+  },
+  "dependencies": {
+    "python-shell": "^3.0.1"
+  }
+}

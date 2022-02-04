@@ -1,0 +1,29 @@
+.container{
+    margin-top: 60px;
+}
+
+#passw, #username{
+    display: block;
+    margin : 0 auto;
+    
+    border: 1px #000 solid;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+#login-btn{
+    display: block;
+    margin : 0 auto;
+    border: 1px #000 solid;
+    border-radius: 20px;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
